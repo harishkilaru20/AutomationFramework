@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38727" started-at="2017-10-24T15:52:39Z" finished-at="2017-10-24T15:53:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38727" started-at="2017-10-24T15:52:39Z" finished-at="2017-10-24T15:53:18Z">
+      <class name="Test.HMSLogin">
+        <test-method status="PASS" signature="GeneratingReport()[pri:0, instance:Test.HMSLogin@675d3402]" name="GeneratingReport" is-config="true" duration-ms="1187" started-at="2017-10-24T21:22:38Z" finished-at="2017-10-24T21:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GeneratingReport -->
+        <test-method status="PASS" signature="initialization(java.lang.String, java.lang.String)[pri:0, instance:Test.HMSLogin@675d3402]" name="initialization" is-config="true" duration-ms="28382" started-at="2017-10-24T21:22:39Z" finished-at="2017-10-24T21:23:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="login()[pri:1, instance:Test.HMSLogin@675d3402]" name="login" duration-ms="8155" started-at="2017-10-24T21:23:07Z" finished-at="2017-10-24T21:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="extentEnd()[pri:0, instance:Test.HMSLogin@675d3402]" name="extentEnd" is-config="true" duration-ms="2152" started-at="2017-10-24T21:23:16Z" finished-at="2017-10-24T21:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentEnd -->
+      </class> <!-- Test.HMSLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
